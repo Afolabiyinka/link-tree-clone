@@ -12,19 +12,7 @@ import {
   SidebarFooter,
 } from "@/components/ui/sidebar";
 
-import {
-  Home,
-  Settings,
-  Link2,
-  BarChart3,
-  Palette,
-  Eye,
-  Share2,
-  User,
-  LogOut,
-  Plus,
-  Layout,
-} from "lucide-react";
+import { Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { NavLinks } from "./libs/nav";
 import SideItem from "./components/sidebar-item";
