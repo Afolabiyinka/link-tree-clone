@@ -127,3 +127,13 @@
     @apply font-sans;
   }
 }
+
+.dark {
+  background: #141414;
+  color: white;
+}
+
+.light {
+  background: white;
+  color: #252525;
+}
