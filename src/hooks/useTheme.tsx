@@ -17,14 +17,7 @@ export const useTheme = () => {
 
     document.body.classList.remove("light", "dark");
     document.body.classList.add(appliedTheme);
-  }, [theme, setTheme]);
-
-  localStorage.setItem("theme", theme);
-
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") as Theme;
-    setTheme(storedTheme);
-  }, []);
+  }, [theme, setTheme])
   return {
     setTheme,
     theme,
